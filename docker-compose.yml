@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  web:
+    image: nginx
+    container_image: nginx-container
+    volumes:
+      - ./opt/meunginx
+    ports: "9090:9090"
